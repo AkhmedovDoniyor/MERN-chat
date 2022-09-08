@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBg a {
+  background: white;
+  color: #000;
+}
+.brand-logo {
+  font-family: 'Grand Hotel', cursive;
+}
+.mycard {
+  margin-top: 45px;
+}
+.card__auth {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 23px;
+}
+.signIn__icon, .signIn__label {
+  color: #651fff !important;
+}
+.signIn__icon.active, .signIn__label.active {
+  color: #5c20dd !important;
+}
+.card__auth h3 {
+  font-family: 'Grand Hotel', cursive;
+  margin-bottom: 25px;
+}
+.btn__singup {
+  color: #651fff;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.auth__desc {
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.input__auth {
+  padding-left: 10px !important;
+}
+.profile__img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile__main {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 650px;
+  margin: 20px auto 0 auto;
+}
+.infoprofile {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.infoprofile__cont p{
+  margin: 0px 5px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.infoprofile__cont {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+.infoprofile__cont span {
+  color: #000;
+}
+.gallery {
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile__main_img {
+  margin-bottom: 10px;
+}
+.sidebar {
+  display: block;
+  width: 300px;
+  margin-top: 30px;
+}
+.sidebar__card {
+  padding: 15px;
+}
+.sidebar__card_img img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+.sidebar__card_img  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.sidebar__card_name {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar__card_title {
+  font-weight: 450;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.sidebar__card_desc {
+  font-size: 12px;
+}
+.sidebar__card_content {
+  padding: 5px 15px;
+}
+.homeSidebar {
+  display: block;
+  width: max-content;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+.home__item {
+  margin-left: 30px;
+  display: block;
+}
+.home__card {
+  max-width: 500px;
+  height: max-content;
+  height: auto;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+.card__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.card__img img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+}
+.postCard {
+  margin: 30px auto;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+.postCard h2 {
+  font-family: 'Grand Hotel', cursive;
+}
+.post__input {
+  padding-left: 10px !important;
+}
+.post__title, .post__description {
+  display: flex;
+  align-items: center;
+}
+.post__title i, .post__description i {
+  margin-right: 10px;
+  color: #5c20dd;
+}
+.post__addIcon {
+  border-radius: 30px;
+}
+.navbar__homeIcon {
+  font-size: 28px !important;
+}
+.home__card_name {
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-weight: 500;
+}
+.card__content_title {
+  margin: 10px 0;
+}
+.like__icon {
+  margin: 0 15px;
+  cursor: pointer;
+}
+.btn__comment_home, .bnt__profile_logout, .bnt__profile_edit {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.profile__edit {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home__mypost, .home__post {
+  text-align: center;
+  color: #5c20dd;
+  font-family: 'Grand Hotel', cursive;
+}
+.card__content_likes {
+  display: flex;
+  align-items: center;
+}
+.card__content_likes span {
+  font-weight: 700;
+}
+.card__content_icons {
+  display: flex;
+  align-items: center;
+}
+.card__content_icons button {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.icon__img i {
+  margin-right: 5px;
+}
+.comment__send {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.comment__send i {
+  color: #5c20dd;
+}
+.comment_content_form {
+  display: flex;
+}
+.delete__post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.delete__post i{
+  color: red;
+  cursor: pointer;
+  font-size: 25px;
+}
+.comp__loader {
+  margin: 100px auto;
+  display: block;
+}
+.card__content_desc {
+  margin-bottom: 10px;
+}
+.comment__count_span {
+  font-weight: 500;
+  margin-left: 6px;
+}
+.btn__follow, .btn__follow.active {
+  width: 80%;
+  background: #5c20dd !important;
+}
+.btn__unfollow, .btn__unfollow.active {
+  width: 80%;
+  background: #fff !important;
+  color: #000;
+}
+.btn__follow:hover {
+  background: #7c45f1;
+}
+.btn__unfollow:hover {
+  background: #fff;
+}
+.follow__btn_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0 20px 0;
+}
+.user__email {
+  font-size: 18px;
+  color: aqua;
+}
+.oppovesh__user {
+  margin: 80px auto;
+  width: 600px;
+  text-align: center;
+  display: block;
+}
+.oppovesh__user p {
+  font-size: 25px;
+  color: #5c20dd;
+  margin-bottom: 25px;
+}
+.oppo {
+  color: red !important;
+}
+.signup__image {
+  display: flex;
+  justify-content: center;
+}
+.signup__image img {
+  width: 20%;
+  height: 20%;
+  background: none;
+  margin-right: 30px;
+}
+.btn__addphoto button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px !important;
+  margin-top: 14px;
+}
+.add_img {
+  transform: scale(0.6);
+}
+.modal__content_posts {
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  max-width: 50%;
+  max-height: 85%;
+}
+.form__editPost {
+  padding: 50px;
+  width: 700px;
+}
+.edit_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+}
+.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px 0;
+}
+.btn_edit, .btn__file_edit, .btn_edit_profile {
+  background: #5c20dd;
+}
+.btn_edit:hover, .btn__file_edit:hover, .btn_edit_profile:hover {
+  background: #7c45f1;
+}
+.nameOrEmail {
+  width: 100%;
+  padding: 0 30px;
+}
+.btn_edit_profile {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* image animation start */
+
+.grid__item {
+  cursor: pointer;
+  margin: 15px 0;
+  padding: 0 15px;
+}
+.grid__item_img {
+  width: 270px;
+  height: 270px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+.grid__item_inner {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.grid__item_inner::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  transition: all 400ms ease;
+}
+.grid__item_inner:hover::before {
+  opacity: 1;
+}
+.grid__item_icon {
+  position: absolute;
+  left: 25%;
+  bottom: 43%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  overflow: hidden;
+  z-index: 3;
+}
+.icon__img {
+  display: flex;
+  margin: 0 10px;
+  font-size: 18px;
+  color: #fff;
+}
+.icon__img {
+  display: flex;
+  transform: translateY(100%);
+  transition: transform 400ms ease;
+}
+.grid__item_inner:hover .icon__img {
+  transform: translateY(0);
+}
+.grid__item_inner:hover .grid__item_img {
+  transform: scale(1.03);
+  transition: all 400ms ease;
+}
+
+
+/* image animation end */
